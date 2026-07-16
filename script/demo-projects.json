@@ -1,0 +1,527 @@
+[
+    {
+        "team_size":  5,
+        "title":  "Realtime Collab Board",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "socket.io",
+                           "mongodb",
+                           "redis"
+                       ],
+        "description":  "A multiplayer whiteboard for teams with real-time cursors, shapes, sticky notes, and version history. Includes guest sharing links and activity logs.",
+        "status":  "closed",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/realtime-board",
+        "required_skills":  [
+                                "realtime",
+                                "websockets",
+                                "react"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "AI Resume Builder",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "express",
+                           "mongodb",
+                           "openai",
+                           "pdf"
+                       ],
+        "description":  "Turns user profiles and projects into structured resumes with templates, exports PDF, and provides AI feedback on wording.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/ai-resume",
+        "required_skills":  [
+                                "ai",
+                                "prompting",
+                                "pdf"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "Skill Matchmaking",
+        "tech_stack":  [
+                           "node",
+                           "express",
+                           "mongodb",
+                           "react"
+                       ],
+        "description":  "Matches developers by skills/interests, supports invites, and surfaces top compatibility reasons.",
+        "status":  "open",
+        "difficulty":  "beginner",
+        "githubRepo":  "https://github.com/devlink-demo/skill-match",
+        "required_skills":  [
+                                "matching",
+                                "api",
+                                "react"
+                            ]
+    },
+    {
+        "team_size":  3,
+        "title":  "Study Buddy Timer",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "postgres"
+                       ],
+        "description":  "Pomodoro sessions with shared timers, focus stats, and distraction blocking suggestions.",
+        "status":  "open",
+        "difficulty":  "beginner",
+        "githubRepo":  "https://github.com/devlink-demo/study-buddy",
+        "required_skills":  [
+                                "frontend",
+                                "timers"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "Dev Portfolio Generator",
+        "tech_stack":  [
+                           "nextjs",
+                           "node",
+                           "mongodb"
+                       ],
+        "description":  "Builds a personal portfolio site from GitHub and profile data with theme switching and custom domains.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/portfolio-gen",
+        "required_skills":  [
+                                "nextjs",
+                                "ui"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "Open Source Radar",
+        "tech_stack":  [
+                           "node",
+                           "postgres",
+                           "redis",
+                           "cron"
+                       ],
+        "description":  "Tracks issues labeled “good first issue”, ranks by activity, and sends weekly email digests.",
+        "status":  "closed",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/os-radar",
+        "required_skills":  [
+                                "api",
+                                "queues",
+                                "email"
+                            ]
+    },
+    {
+        "team_size":  3,
+        "title":  "Team Retrospective Tool",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "mongodb"
+                       ],
+        "description":  "Async retro board with anonymous posts, voting, and export to Notion.",
+        "status":  "open",
+        "difficulty":  "beginner",
+        "githubRepo":  "https://github.com/devlink-demo/retro-tool",
+        "required_skills":  [
+                                "ui",
+                                "crud"
+                            ]
+    },
+    {
+        "team_size":  5,
+        "title":  "Code Review Buddy",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "postgres"
+                       ],
+        "description":  "Annotate code diffs with inline comments, approval flow, and Slack alerts.",
+        "status":  "open",
+        "difficulty":  "advanced",
+        "githubRepo":  "https://github.com/devlink-demo/code-review",
+        "required_skills":  [
+                                "diff",
+                                "backend"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "API Health Monitor",
+        "tech_stack":  [
+                           "node",
+                           "postgres",
+                           "grafana",
+                           "prometheus"
+                       ],
+        "description":  "Monitors endpoints, pings on schedule, and reports uptime with status pages.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/api-health",
+        "required_skills":  [
+                                "monitoring",
+                                "infra"
+                            ]
+    },
+    {
+        "team_size":  6,
+        "title":  "Remote Pair Coding",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "webrtc",
+                           "socket.io"
+                       ],
+        "description":  "Live coding rooms with shared editor, voice chat, and session replays.",
+        "status":  "open",
+        "difficulty":  "advanced",
+        "githubRepo":  "https://github.com/devlink-demo/pair-coding",
+        "required_skills":  [
+                                "webrtc",
+                                "realtime"
+                            ]
+    },
+    {
+        "team_size":  3,
+        "title":  "Event Planner",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "mongodb"
+                       ],
+        "description":  "Create events, invite members, manage RSVPs, and auto-generate calendars.",
+        "status":  "closed",
+        "difficulty":  "beginner",
+        "githubRepo":  "https://github.com/devlink-demo/event-planner",
+        "required_skills":  [
+                                "forms",
+                                "calendar"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "Learning Path Builder",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "postgres"
+                       ],
+        "description":  "Curate learning paths, track progress, and recommend next topics based on goals.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/learning-path",
+        "required_skills":  [
+                                "recommendations",
+                                "ux"
+                            ]
+    },
+    {
+        "team_size":  5,
+        "title":  "Bug Bounty Tracker",
+        "tech_stack":  [
+                           "node",
+                           "postgres",
+                           "redis"
+                       ],
+        "description":  "Track vulnerabilities, triage status, and payout workflow for security teams.",
+        "status":  "open",
+        "difficulty":  "advanced",
+        "githubRepo":  "https://github.com/devlink-demo/bug-bounty",
+        "required_skills":  [
+                                "security",
+                                "workflow"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "Mobile Habit Coach",
+        "tech_stack":  [
+                           "react-native",
+                           "expo",
+                           "firebase"
+                       ],
+        "description":  "Habit tracking app with streaks, reminders, and insight charts.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/habit-coach",
+        "required_skills":  [
+                                "mobile",
+                                "notifications"
+                            ]
+    },
+    {
+        "team_size":  5,
+        "title":  "AI Meeting Notes",
+        "tech_stack":  [
+                           "node",
+                           "python",
+                           "whisper",
+                           "react"
+                       ],
+        "description":  "Record audio, transcribe, summarize action items, and assign tasks.",
+        "status":  "open",
+        "difficulty":  "advanced",
+        "githubRepo":  "https://github.com/devlink-demo/ai-notes",
+        "required_skills":  [
+                                "ai",
+                                "audio"
+                            ]
+    },
+    {
+        "team_size":  5,
+        "title":  "Community Q\u0026A",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "postgres"
+                       ],
+        "description":  "StackOverflow-style Q\u0026A with badges, voting, and moderation tools.",
+        "status":  "closed",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/community-qa",
+        "required_skills":  [
+                                "ranking",
+                                "moderation"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "Crypto Portfolio Watcher",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "mongodb"
+                       ],
+        "description":  "Track holdings, alerts on price moves, and performance reports.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/crypto-watch",
+        "required_skills":  [
+                                "api",
+                                "charts"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "Fitness Class Scheduler",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "postgres"
+                       ],
+        "description":  "Schedule classes, manage instructors, and handle waitlists.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/fitness-scheduler",
+        "required_skills":  [
+                                "scheduling",
+                                "backend"
+                            ]
+    },
+    {
+        "team_size":  5,
+        "title":  "Customer Support Inbox",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "mongodb"
+                       ],
+        "description":  "Shared inbox with tags, assignments, and SLA tracking.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/support-inbox",
+        "required_skills":  [
+                                "crm",
+                                "workflow"
+                            ]
+    },
+    {
+        "team_size":  5,
+        "title":  "IoT Device Dashboard",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "mqtt",
+                           "timeseries"
+                       ],
+        "description":  "Manage devices, view telemetry, and set alerts.",
+        "status":  "open",
+        "difficulty":  "advanced",
+        "githubRepo":  "https://github.com/devlink-demo/iot-dashboard",
+        "required_skills":  [
+                                "iot",
+                                "data"
+                            ]
+    },
+    {
+        "team_size":  3,
+        "title":  "Travel Planner",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "mongodb"
+                       ],
+        "description":  "Build itineraries, share with friends, and manage budgets.",
+        "status":  "closed",
+        "difficulty":  "beginner",
+        "githubRepo":  "https://github.com/devlink-demo/travel-planner",
+        "required_skills":  [
+                                "maps",
+                                "ui"
+                            ]
+    },
+    {
+        "team_size":  6,
+        "title":  "Marketplace MVP",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "postgres"
+                       ],
+        "description":  "Listings, search, messaging, and basic checkout for a niche marketplace.",
+        "status":  "open",
+        "difficulty":  "advanced",
+        "githubRepo":  "https://github.com/devlink-demo/marketplace",
+        "required_skills":  [
+                                "search",
+                                "payments"
+                            ]
+    },
+    {
+        "team_size":  3,
+        "title":  "Study Notes Vault",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "mongodb"
+                       ],
+        "description":  "Save notes with tags, full-text search, and export.",
+        "status":  "open",
+        "difficulty":  "beginner",
+        "githubRepo":  "https://github.com/devlink-demo/notes-vault",
+        "required_skills":  [
+                                "search",
+                                "crud"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "Climate Footprint Tracker",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "postgres"
+                       ],
+        "description":  "Estimate carbon footprint from habits and suggest reductions.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/climate-tracker",
+        "required_skills":  [
+                                "data",
+                                "ux"
+                            ]
+    },
+    {
+        "team_size":  5,
+        "title":  "Recruiting CRM",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "mongodb"
+                       ],
+        "description":  "Track candidates, pipeline stages, and interview feedback.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/recruiting-crm",
+        "required_skills":  [
+                                "workflow",
+                                "forms"
+                            ]
+    },
+    {
+        "team_size":  6,
+        "title":  "Video Course Platform",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "postgres"
+                       ],
+        "description":  "Host videos, track progress, quizzes, and certificates.",
+        "status":  "closed",
+        "difficulty":  "advanced",
+        "githubRepo":  "https://github.com/devlink-demo/video-courses",
+        "required_skills":  [
+                                "media",
+                                "auth"
+                            ]
+    },
+    {
+        "team_size":  4,
+        "title":  "Local Food Finder",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "mongodb"
+                       ],
+        "description":  "Discover restaurants, reviews, and recommendations.",
+        "status":  "open",
+        "difficulty":  "beginner",
+        "githubRepo":  "https://github.com/devlink-demo/food-finder",
+        "required_skills":  [
+                                "maps",
+                                "reviews"
+                            ]
+    },
+    {
+        "team_size":  5,
+        "title":  "Freelance Contract Manager",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "postgres"
+                       ],
+        "description":  "Templates, e-sign, invoice tracking, and reminders.",
+        "status":  "open",
+        "difficulty":  "intermediate",
+        "githubRepo":  "https://github.com/devlink-demo/contracts",
+        "required_skills":  [
+                                "documents",
+                                "billing"
+                            ]
+    },
+    {
+        "team_size":  3,
+        "title":  "Code Snippet Organizer",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "mongodb"
+                       ],
+        "description":  "Save and tag snippets with syntax highlight and sharing.",
+        "status":  "open",
+        "difficulty":  "beginner",
+        "githubRepo":  "https://github.com/devlink-demo/snippets",
+        "required_skills":  [
+                                "editor",
+                                "search"
+                            ]
+    },
+    {
+        "team_size":  5,
+        "title":  "Team Analytics Dashboard",
+        "tech_stack":  [
+                           "react",
+                           "node",
+                           "postgres"
+                       ],
+        "description":  "Aggregates GitHub metrics, pull request stats, and velocity charts.",
+        "status":  "open",
+        "difficulty":  "advanced",
+        "githubRepo":  "https://github.com/devlink-demo/team-analytics",
+        "required_skills":  [
+                                "analytics",
+                                "api"
+                            ]
+    }
+]
